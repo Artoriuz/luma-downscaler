@@ -25,7 +25,7 @@
 //!WIDTH OUTPUT.w
 //!HEIGHT OUTPUT.h
 //!WHEN OUTPUT.w LUMA.w <
-//!DESC Luma Downscaler (Polar)
+//!DESC Luma Downscaler (Linear-Light Gaussian)
 
 vec4 hook() {
     vec2 factor = ceil(input_size / target_size);
